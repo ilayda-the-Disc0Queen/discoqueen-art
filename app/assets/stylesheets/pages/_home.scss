@@ -1,0 +1,18 @@
+// Specific CSS for your home-page
+.indexbanner {
+  padding: 220px 0;
+  border: 0;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://res.cloudinary.com/dofvu2msx/image/upload/v1590663769/moe-kong-UBITFsHr6lw-unsplash_sjzewk.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  height: 10%;
+  margin-bottom: 30px;
+}
+
+.indexbanner h1 {
+  color: white;
+  letter-spacing: 2.6px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
