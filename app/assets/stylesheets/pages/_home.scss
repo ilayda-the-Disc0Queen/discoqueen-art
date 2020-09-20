@@ -1,18 +1,28 @@
 // Specific CSS for your home-page
-.indexbanner {
-  padding: 220px 0;
+.home-banner {
+  padding: 0;
   border: 0;
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://res.cloudinary.com/dofvu2msx/image/upload/v1590663769/moe-kong-UBITFsHr6lw-unsplash_sjzewk.jpg');
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  height: 10%;
   margin-bottom: 30px;
+  position: relative;
 }
 
-.indexbanner h1 {
+#homepage-video {
+  width: 100%;
+  // height:100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.home-banner h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  margin: 0;
+  padding: 0;
   color: white;
   letter-spacing: 2.6px;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  text-align: center;
 }
-
